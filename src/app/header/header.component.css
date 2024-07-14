@@ -1,0 +1,32 @@
+.navbar-brand {
+  font-weight: bold;
+  font-size: 32px;
+  color: red;
+  font-family: cursive;
+}
+
+.navbar {
+  letter-spacing: 0.2rem;
+  background-color: #051129;
+  font-size: 19px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.nav-link {
+  color: rgb(39, 152, 197);
+}
+
+.nav-link:hover {
+ text-shadow: 2px 0px 2px rgb(39, 152, 197);
+}
+
+.navbar-nav .nav-item {
+  margin-right: 35px;
+}
+
+.navbar-toggler-icon {
+  background-color: rgb(67, 1, 1);
+  color: aliceblue;
+}

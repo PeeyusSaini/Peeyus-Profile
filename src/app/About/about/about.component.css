@@ -1,0 +1,247 @@
+* {
+    background: #081b29;
+    color: white;
+}
+.abt {
+    gap: 3rem;
+    padding-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 6rem;
+    flex-direction: column;
+    background: #081b29;
+}
+
+.heading {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+span {
+    color: rgb(39, 152, 197);
+}
+
+.about-img {
+    position: relative;
+    width: 22rem;
+    height: 22rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about-img img {
+    z-index: 1000;
+    width: 90%;
+    border-radius: 50%;
+    border: .2rem solid rgb(39, 152, 197);
+}
+
+.about-img .circle-spin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)rotate(0);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border-top: .2rem solid red;
+    border-bottom: .2rem solid red;
+    border-left: .2rem solid rgb(39, 152, 197);
+    border-right: .2rem solid rgb(39, 152, 197);
+}
+
+.about .about-content {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.about .about-content .about-text {
+    flex: 0 0 100%;
+    max-width: 100%;
+
+}
+
+.about .about-content .about-text h3 {
+    font-size: 44px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #ab552d;
+}
+
+.about .about-content .about-text p {
+    font-size: 16px;
+    line-height: 25px;
+    color: rgb(39, 152, 197);
+}
+
+.about .about-content .personal-info {
+    flex: 0 0 60%;
+    max-width: 60%;
+    margin-top: 40px;
+}
+
+.about .about-content .skills {
+    flex: 0 0 40%;
+    max-width: 40%;
+    margin-top: 40px;
+}
+
+.about .about-content .personal-info .info-item {
+    flex: 0 0 50%;
+    max-width: 50%;
+
+}
+
+.table strong {
+    color: rgb(39, 152, 197);
+}
+
+.table-container {
+    border: 1px solid black;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 0 0 5px rgb(0, 0, 0), 0 0 25px rgb(0, 0, 0);
+
+}
+
+.table td {
+    color: rgb(141, 224, 205);
+}
+.table td a{
+    color: rgb(141, 224, 205);
+    text-decoration: none;
+}
+
+.about .about-content .personal-info .info-item p span {
+    font-weight: 400;
+    color: #2f5a79;
+    margin-left: 4px;
+    display: inline-block;
+}
+.about .about-content .skills .skill-item h5 {
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(39, 152, 197);
+    text-transform: capitalize;
+}
+
+.about .about-content .skills .skill-item .progress {
+    background-color: #123f5f;
+    height: 7px;
+    border-radius: 4px;
+    width: 100%;
+    position: relative;
+    padding-left: 10px;
+}
+
+.about .about-content .skills .skill-item {
+    margin-bottom: 25px;
+}
+
+.about .about-content .skills .skill-item .progress .progress-in {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.about .about-content .skills .skill-item .skill-percent {
+    position: absolute;
+    right: 0;
+
+    top: -40%;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.rows {
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px rgb(39, 152, 197), 0 0 5px rgb(39, 152, 197);
+}
+
+.services-list div {
+    border-color: transparent;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 13px;
+    border-right: 10px;
+    border-radius: 20px;
+    transition: background 0.5s, transform 0.5s;
+    box-shadow: 1px 1px 20px #012290f7, 1px 1px 40px #0053b8f7;
+    margin: 20px 20px 20px 0px;
+
+}
+
+.services-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+
+}
+
+.services-list div h2 {
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: red;
+}
+
+.mySkills {
+    font-size: 20px;
+}
+
+.list li {
+    background: linear-gradient(to right, rgb(141, 224, 205), orange, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 1.3em;
+    color: rgb(141, 224, 205);
+}
+
+.services-list div a {
+    text-decoration: none;
+    color: #0a0a0a;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#skill {
+    background-color: #081b29;
+}
+
+.services-list div:hover {
+    transform: translateY(-10px);
+}
+
+@keyframes slideTop {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}

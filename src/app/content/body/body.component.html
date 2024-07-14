@@ -1,0 +1,98 @@
+<section class="home">
+  <div class="container d-flex justify-content-between">
+    <div class="row align-items-center">
+
+      <!-- Home Content -->
+      <div class="col-md-12 home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Peeyus Saini </h1>
+        <div class="typing-container">
+          <h3>And I'm a<span [@typingAnimation]="typingState" class="typing-text">{{ currentText }}</span></h3>
+        </div>
+        <p>I am a Front-End <span style="color: red;">Angular</span> Developer with extensive experience for over 1.6+
+          year at KMA Technoware Pvt. Ltd.<br> Expertise is to create, design and develop website using HTML5, CSS,
+          Bootstrap, JS, Angular and TypeScript</p>
+        <div class="home-sci">
+          <a href="https://www.facebook.com/profile.php?id=100021875829777&mibextid=ZbWKwL" target="_blank"
+            style="--i:7"><i class='bx bxl-facebook'></i></a>
+          <a href="https://wa.me/+919817634413" target="_blank" style="--i:8"><i class='bx bxl-whatsapp'></i></a>
+          <a href="https://www.instagram.com/i.piyush_saini/" target="_blank" style="--i:9"><i
+              class='bx bxl-instagram'></i></a>
+          <a href="https://www.linkedin.com/in/peeyus-saini-23263b24a/" target="_blank" style="--i:10"><i
+              class='bx bxl-linkedin'></i></a>
+        </div>
+        <br><br>
+        <div class="More">
+          <a href="https://peeyussaini.github.io/Peeyusportfolio/assets/Peeyus__CV.pdf" class="CV"><i
+              class='bx bxs-download'></i> Download CV</a>
+        </div>
+      </div>
+
+
+    </div>
+    <!-- Profile Image -->
+    <div class="col-md-3 image">
+      <img [src]="profileImage" class="img-fluid mb-4" alt="Peeyus Saini">
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section class="about" id="about">
+  <div class="container">
+    <div class="d-flex">
+      <div class="col-md-8 about-text">
+        <h2>About<span>Me</span></h2>
+        <h4>Front End Developer</h4>
+        <p>
+          I possess a solid proficiency in TypeScript and have extensive expertise in frameworks like Angular,
+          which positions me well to contribute effectively to your team. I am particularly skilled in collaborating
+          with cross-functional teams, integrating RESTful APIs, and adhering to best practices in coding and
+          development.
+        </p>
+        <a routerLink="/about" class="btn-box">More About Me</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skill">
+  <div class="container">
+    <h1 class="sub-tittle">My <span>Skills</span></h1>
+    <div class="services-list">
+      <div class="col-md-12">
+        <i class='bx bx-code-alt' style='color:rgb(39, 152, 197)'></i>
+        <h2>UI/UX Design</h2>
+        <p>I am skilled in implementing responsive design techniques to guarantee optimal user
+          experiences across various devices and screen sizes. Additionally, I have developed and
+          maintained comprehensive design systems and style guides to ensure consistency and scalability across
+          projects. </p>
+      </div>
+      <div class="col-md-12">
+        <i class='bx bx-crop' style='color:rgb(39, 152, 197)'></i>
+        <h2>Web Developing</h2>
+        <p>My front-end development skills allow me to translate design specifications into high-quality,
+          scalable code using HTML, CSS, JavaScript, and frameworks like Angular.
+          I have optimized web application performance by applying best practices, including lazy loading, code
+          splitting, and server-side rendering. Utilizing Git for version control,
+          I collaborate with development teams through pull requests and code reviews to maintain code quality and
+          project integrity.</p>
+      </div>
+    </div>
+    <div class="services-list">
+      <div class="col-md-12">
+        <i class='bx bx-hash' style='color:rgb(39, 152, 197)'></i>
+        <h2>Angular</h2>
+        <p>I have extensive experience working with Angular, particularly Angular 15, having developed a full-featured
+          Angular application and admin panel. In this project, I leveraged various technologies, including TypeScript,
+          HTML, CSS, Bootstrap, REST APIs, JWT, and Server-Side Rendering (SSR). My role involved creating a
+          comprehensive application with
+          features such as lazy loading for enhanced performance, custom pagination for efficient data management, and
+          dynamic data
+          interaction through integrated REST APIs. Additionally, I implemented JWT authentication to ensure secure user
+          sessions and optimized the application's performance using SSR.</p>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,60 @@
+*{
+	color: white;
+}
+.about-author {
+    border-radius: 5px;
+}
+.about-author .desc h3 {
+    font-size: 24px;
+}
+
+.ftco-section {
+    padding: 7em 0;
+    position: relative;
+}
+
+@media (max-width: 575.98px) {
+    .ftco-section {
+        padding: 6em 0;
+    }
+}
+
+.ftco-no-pt {
+    padding-top: 0 !important;
+}
+
+.ftco-no-pb {
+    padding-bottom: 0 !important;
+}
+
+.ftco-bg-dark {
+    background: #3c312e;
+}
+
+.ftco-footer {
+    font-size: 16px;
+    background: black;
+    padding: 7em 0;
+    z-index: 0;
+}
+.ftco-footer a {
+    text-decoration: none;
+}
+
+.list-unstyled {
+    padding-top: 15px;
+}
+.list-unstyled li  {
+	padding-top	: 15px;
+}
+.list-unstyled .bx  {
+	padding-right	: 10px;
+}
+.block-23{
+    padding-top: 15px;
+}
+.block-23 li{
+	text-decoration: none;
+    padding-top: 15px;
+
+}
