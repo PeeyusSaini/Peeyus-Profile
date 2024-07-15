@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class AboutComponent implements OnInit {
 
   constructor() { }
-imageUrl:string="https://peeyussaini.github.io/Peeyusportfolio/assets/images/pic2.jpg"
+imageUrl:string="../../assets/images/pic2.jpg"
   ngOnInit(): void {
     this.scrollToTop();
   }

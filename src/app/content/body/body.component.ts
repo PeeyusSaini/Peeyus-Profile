@@ -32,7 +32,7 @@ export class BodyComponent implements OnInit {
   index = 0;
 
 url:any
-profileImage:string="https://peeyussaini.github.io/My_Profile/assets/images/my photo-min.jpg" ;
+profileImage:string="../../assets/images/my photo-min.jpg" ;
   constructor() { }
 
   ngOnInit(): void {
