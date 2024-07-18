@@ -53,3 +53,7 @@ profileImage:string="/Peeyus-Profile/assets/images/my photo-min.jpg" ;
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 }
+// ng b --output-path docs --base-href /Peeyus-Profile/
+// git add .
+// git commit -m "msg"
+// git push

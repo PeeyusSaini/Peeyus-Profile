@@ -29,11 +29,10 @@
 
    .box-up {
        padding: 10% 10% 5% 20%;
-
    }
 
    .all {
-       background-image: url('../../../assets/images/hand.jpg');
+       background-image: url('../../../assets/images/hand2.webp');
        background-size: cover;
        background-attachment: fixed;
    }
