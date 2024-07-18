@@ -3,13 +3,13 @@
     <div class="row align-items-center">
 
       <!-- Home Content -->
-      <div class="col-md-12 home-content">
+      <div class="col-md-12 home-content text-white">
         <h3>Hello, It's Me</h3>
-        <h1>Peeyus Saini </h1>
+        <h1><span class="text-red">Peeyus</span> Saini </h1>
         <div class="typing-container">
-          <h3>And I'm a<span [@typingAnimation]="typingState" class="typing-text">{{ currentText }}</span></h3>
+          <h3>And I'm a<span [@typingAnimation]="typingState" class="typing-text text-accent">{{ currentText }}</span></h3>
         </div>
-        <p>I am a Front-End <span style="color: red;">Angular</span> Developer with extensive experience of 2 years in Software-Development.<br> Expertise is to create, design and develop website using HTML5, CSS,
+        <p>I am a Front-End <span class="text-red">Angular</span> Developer with extensive experience of 2 years in Software-Development.<br> Expertise is to create, design and develop website using HTML5, CSS,
           Bootstrap, JS, Angular and TypeScript</p>
         <div class="home-sci">
           <a href="https://www.facebook.com/profile.php?id=100021875829777&mibextid=ZbWKwL" target="_blank"
@@ -31,7 +31,7 @@
     </div>
     <!-- Profile Image -->
     <div class="col-md-3 image">
-      <img [src]="profileImage" class="img-fluid mb-4" alt="Peeyus Saini">
+      <img [src]="profileImage" class="img-fluid mb-4" alt="Peeyus Saini" width="max-width" height="auto">
     </div>
   </div>
 </section>
@@ -40,9 +40,9 @@
 <section class="about" id="about">
   <div class="container">
     <div class="d-flex">
-      <div class="col-md-8 about-text">
-        <h2>About<span>Me</span></h2>
-        <h4>Front End Developer</h4>
+      <div class="col-md-8 about-text text-white">
+        <h1>About<span class="text-accent">Me</span></h1>
+        <h4 class="text-red">Front End Angular Developer</h4>
         <p>
           I possess a solid proficiency in TypeScript and have extensive expertise in frameworks like Angular,
           which positions me well to contribute effectively to your team. I am particularly skilled in collaborating
@@ -57,20 +57,20 @@
 
 <!-- Skills Section -->
 <section id="skill">
-  <div class="container">
-    <h1 class="sub-tittle">My <span>Skills</span></h1>
-    <div class="services-list">
+  <div class="container text-white">
+    <h1 class="sub-tittle">My <span class="text-accent">Skills</span></h1>
+    <div class="services-list ">
       <div class="col-md-12">
-        <i class='bx bx-code-alt' style='color:rgb(39, 152, 197)'></i>
-        <h2>UI/UX Design</h2>
+        <i class='bx bx-code-alt text-accent'></i>
+        <h2 class="text-red">UI/UX Design</h2>
         <p>I am skilled in implementing responsive design techniques to guarantee optimal user
           experiences across various devices and screen sizes. Additionally, I have developed and
           maintained comprehensive design systems and style guides to ensure consistency and scalability across
           projects. </p>
       </div>
       <div class="col-md-12">
-        <i class='bx bx-crop' style='color:rgb(39, 152, 197)'></i>
-        <h2>Web Developing</h2>
+        <i class='bx bx-crop text-accent'></i>
+        <h2 class="text-red">Web Developing</h2>
         <p>My front-end development skills allow me to translate design specifications into high-quality,
           scalable code using HTML, CSS, JavaScript, and frameworks like Angular.
           I have optimized web application performance by applying best practices, including lazy loading, code
@@ -81,8 +81,8 @@
     </div>
     <div class="services-list">
       <div class="col-md-12">
-        <i class='bx bx-hash' style='color:rgb(39, 152, 197)'></i>
-        <h2>Angular</h2>
+        <i class='bx bx-hash text-accent'></i>
+        <h2 class="text-red">Angular</h2>
         <p>I have extensive experience working with Angular, particularly Angular 15, having developed a full-featured
           Angular application and admin panel. In this project, I leveraged various technologies, including TypeScript,
           HTML, CSS, Bootstrap, REST APIs, JWT, and Server-Side Rendering (SSR). My role involved creating a
