@@ -1,5 +1,5 @@
 import { animate, state, style, transition, trigger } from '@angular/animations';
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -7,10 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent implements OnInit {
-  constructor(){}
+ 
   ngOnInit(){
   }
+  constructor(private elementRef: ElementRef) { }
 
+  closeNavbar(): void {
+    this.elementRef.nativeElement.querySelector('#navbarSupportedContent').classList.remove('show');
+  }
   // isScratched: boolean = false;
 
   // scratchCoupon() {
